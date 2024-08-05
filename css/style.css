@@ -4257,8 +4257,8 @@ button,
 
 .intro__gif {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 50px;
+  right: -75px;
   z-index: 1;
 }
 
@@ -11774,7 +11774,7 @@ button,
 
 @media screen and (max-width: 1150px) {
   .intro__gif {
-    right: -100px;
+    right: -150px;
   }
 
   .plus__slider {
@@ -13218,7 +13218,7 @@ button,
   }
 
   .intro__gif {
-    right: -400px;
+    right: -360px;
     bottom: 150px;
     -webkit-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
