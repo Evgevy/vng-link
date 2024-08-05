@@ -4252,6 +4252,19 @@ button,
   width: 100%;
   margin: 0 auto;
   padding: 90px 40px 50px;
+  position: relative;
+}
+
+.intro__gif {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.intro__gif img {
+  max-width: 100%;
+  height: auto;
 }
 
 .intro__inner {
@@ -11760,6 +11773,10 @@ button,
 }
 
 @media screen and (max-width: 1150px) {
+  .intro__gif {
+    right: -100px;
+  }
+
   .plus__slider {
     width: 100%;
     max-width: 1000px;
@@ -12193,6 +12210,14 @@ button,
     grid-column: 3;
     -ms-grid-row: 2;
     grid-row: 2;
+  }
+
+  .intro__gif {
+    bottom: 50px;
+    right: -200px;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
   }
 
   .machine__inner {
@@ -13054,6 +13079,16 @@ button,
   }
 }
 
+@media screen and (max-width: 890px) {
+  .intro__gif {
+    right: -350px;
+    bottom: 250px;
+    -webkit-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+  }
+}
+
 @media screen and (max-width: 840px) {
   .time-block__box {
     -ms-grid-columns: 0.7fr 1fr;
@@ -13180,6 +13215,14 @@ button,
 
   .intro__content {
     padding: 90px 45px 70px;
+  }
+
+  .intro__gif {
+    right: -400px;
+    bottom: 150px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
   }
 
   .intro__inner {
@@ -14459,6 +14502,14 @@ button,
 }
 
 @media screen and (max-width: 590px) {
+  .intro__gif {
+    right: -400px;
+    bottom: 250px;
+    -webkit-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+  }
+
   .sertificates__image {
     width: 100%;
     margin: 0 auto;
@@ -14750,6 +14801,10 @@ button,
 }
 
 @media screen and (max-width: 520px) {
+  .intro__gif {
+    right: -420px;
+  }
+
   .intro__inner {
     padding: 30px;
   }
