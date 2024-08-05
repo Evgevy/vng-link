@@ -13213,6 +13213,11 @@ button,
     font-size: 14px;
   }
 
+  .intro__bg:last-child img {
+    -webkit-filter: blur(1000px);
+    filter: blur(1000px);
+  }
+
   .intro__content {
     padding: 90px 45px 70px;
   }
