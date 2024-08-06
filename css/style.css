@@ -13089,6 +13089,36 @@ button,
     margin-top: auto;
   }
 
+  .grade {
+    display: block;
+  }
+
+  .grade__slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .grade__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+  }
+
+  .grade__item {
+    position: relative;
+    opacity: 1 !important;
+    -webkit-transform: translateX(0) !important;
+    -ms-transform: translateX(0) !important;
+    transform: translateX(0) !important;
+    overflow: hidden;
+  }
+
+  .grade.fixed {
+    display: none;
+  }
+
   .how__image {
     width: 360px;
     height: 380px;
