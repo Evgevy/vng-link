@@ -3250,6 +3250,11 @@ button,
   -webkit-box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.25);
   box-shadow: inset 0px 0px 15px 0px rgba(255, 255, 255, 0.25);
   background: #343547;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 .header.is-open .main-nav__toggle span:nth-child(1) {
@@ -4214,6 +4219,7 @@ button,
 .intro {
   position: relative;
   overflow: hidden;
+  margin-top: 95px;
 }
 
 .intro__bg {
