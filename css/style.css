@@ -10830,6 +10830,7 @@ button,
 
 .ticker__slide {
   width: 150px;
+  will-change: transform;
 }
 
 .why {
