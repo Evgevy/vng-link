@@ -10824,6 +10824,8 @@ button,
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
   padding: 35px 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .ticker__slide {
