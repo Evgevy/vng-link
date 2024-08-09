@@ -10831,6 +10831,8 @@ button,
 .ticker__slide {
   width: 150px;
   will-change: transform;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .why {
