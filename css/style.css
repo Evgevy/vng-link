@@ -4155,6 +4155,20 @@ button,
   display: none;
 }
 
+.social {
+  position: fixed;
+  z-index: 10;
+  bottom: 10%;
+  right: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -13874,6 +13888,11 @@ button,
 
   .footer__policy-text {
     font-size: 14px;
+  }
+
+  .social a svg {
+    width: 50px;
+    height: 50px;
   }
 
   .intro__bg:last-child img {
