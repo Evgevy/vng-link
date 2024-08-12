@@ -11864,6 +11864,16 @@ button,
 }
 
 @media screen and (max-width: 1700px) {
+  .intro__content {
+    padding: 50px 40px;
+    margin-bottom: 100px;
+  }
+
+  .intro__gif-content {
+    right: 200px;
+    bottom: -250px;
+  }
+
   .about-page__item:nth-child(2n) > .machine__images {
     left: -400px;
     top: 600px;
@@ -11882,10 +11892,6 @@ button,
 }
 
 @media screen and (max-width: 1600px) {
-  .intro__content {
-    padding: 100px 40px;
-  }
-
   .intro__title {
     font-size: 70px;
   }
@@ -12233,6 +12239,11 @@ button,
 }
 
 @media screen and (max-width: 1270px) {
+  .intro__gif-content {
+    right: 100px;
+    bottom: -300px;
+  }
+
   .days__list {
     gap: 10px;
   }
@@ -12397,10 +12408,6 @@ button,
 }
 
 @media screen and (max-width: 1150px) {
-  .intro__gif-content {
-    right: -50px;
-  }
-
   .plus__slider {
     width: 100%;
     max-width: 1000px;
@@ -13876,6 +13883,7 @@ button,
 
   .intro__content {
     padding: 90px 45px 70px;
+    margin: 0 auto;
   }
 
   .intro__inner {
